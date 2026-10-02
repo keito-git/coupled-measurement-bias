@@ -1,0 +1,72 @@
+{
+ "note": "Size-matched power of the hard_wc diagnostic (not pre-registered). The power replications of E35 (Scheme C'\ngenerator at true gamma != 0) are tested against the C0 band, i.e. the null band of the same generator at\ngamma = 0, so that the rejection rate does not mix power with simulator mismatch.\nInputs: E35_ckpt_power.json, E35_ckpt_c0_null.json. Output: posthoc_power_vs_c0.json",
+ "c0_band": [
+  -0.7893576309532323,
+  -0.0414058761938415
+ ],
+ "c0_n": 200,
+ "c0_mean": -0.45121472622229897,
+ "c0_sd": 0.20053730537130648,
+ "rows": [
+  {
+   "gamma_true": -1.2,
+   "n": 100,
+   "n_reject": 98,
+   "rate": 0.98,
+   "wilson95": [
+    0.9299882086824253,
+    0.9944980324993383
+   ],
+   "gamma_hat_mean": -1.1359833685076404,
+   "gamma_hat_sd": 0.1755218374550629
+  },
+  {
+   "gamma_true": -0.8,
+   "n": 100,
+   "n_reject": 73,
+   "rate": 0.73,
+   "wilson95": [
+    0.6356788315330401,
+    0.8073041590332216
+   ],
+   "gamma_hat_mean": -0.9237504325438749,
+   "gamma_hat_sd": 0.20152873248717454
+  },
+  {
+   "gamma_true": -0.4,
+   "n": 100,
+   "n_reject": 30,
+   "rate": 0.3,
+   "wilson95": [
+    0.21894885238515716,
+    0.39584854712244144
+   ],
+   "gamma_hat_mean": -0.6976173142817435,
+   "gamma_hat_sd": 0.19069253430272096
+  },
+  {
+   "gamma_true": -0.2,
+   "n": 100,
+   "n_reject": 14,
+   "rate": 0.14,
+   "wilson95": [
+    0.08526343626497376,
+    0.2213718828487036
+   ],
+   "gamma_hat_mean": -0.532717210906403,
+   "gamma_hat_sd": 0.20631324275118892
+  },
+  {
+   "gamma_true": 0.4,
+   "n": 100,
+   "n_reject": 32,
+   "rate": 0.32,
+   "wilson95": [
+    0.23669147266401064,
+    0.4166261868928281
+   ],
+   "gamma_hat_mean": -0.1369462774728978,
+   "gamma_hat_sd": 0.21406738486420399
+  }
+ ]
+}

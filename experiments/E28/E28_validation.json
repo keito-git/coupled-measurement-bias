@@ -1,0 +1,21 @@
+{
+  "experiment": "E28_validation",
+  "validation": {
+    "gradient_check": {
+      "max_rel_err": 2.4251890261274647e-08,
+      "mean_rel_err": 3.2814495447185067e-09,
+      "passed_strict": true,
+      "passed": true,
+      "threshold": 1e-05,
+      "result": "PASS"
+    },
+    "real_data_gammas": {
+      "rh_pl1": -0.3970134508328167,
+      "wc_pl1": -1.2874310554122441,
+      "wc_pl3": -1.6813243417084172,
+      "wc_pl4": -3.4598889241242605,
+      "rh_pl3": -0.5123306795451189,
+      "rh_pl4": -0.948760803152289
+    }
+  }
+}

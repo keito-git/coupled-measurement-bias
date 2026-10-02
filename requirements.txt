@@ -1,0 +1,8 @@
+# Python 3.11 (tested with 3.11.3)
+numpy==1.26.4
+scipy==1.17.1
+numba==0.61.2
+llvmlite==0.44.0
+pandas==1.5.3
+pyarrow==14.0.1
+matplotlib==3.11.0
