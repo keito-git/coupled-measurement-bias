@@ -156,7 +156,7 @@ E40 1.8 h (3), E34e 15 min (3), E34f, E37 and E36b well under 1 h (3). E31: seco
 ## Citation
 
 ```
-@article{inoshita2026spurious,
+@article{spurious2026,
   title   = {Spurious Effect Modification from Crowdsourced Annotations in Event Sequence Mining:
              Coupled Measurement Bias and a Diagnostic Test},
   author  = {Keito Inoshita and Atsushi Takenaka},
